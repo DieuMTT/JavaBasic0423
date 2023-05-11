@@ -15,9 +15,7 @@ public class VongLapForVaMang {
         //Duyệt mảng để in ra kết quả sau khi nạp vào
         System.out.println("In ra số chẵn 0-50 sau khi nạp vào mảng");
         for (int i = 0; i < mang1.length; i++) {
-            if (mang1[i] != 0) {
-                System.out.println(mang1[i]);
-            }
+            System.out.println(mang1[i]);
         }
 
     }
