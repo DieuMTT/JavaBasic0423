@@ -41,8 +41,11 @@ public class AddNhanVien {
         listNhanVien.add(new AddNhanVien("Nam", "Dev"));
         listNhanVien.add(new AddNhanVien("Lan", "BA"));
         // Show listStudent
-        for (AddNhanVien nhanvien : listNhanVien) {
-            System.out.println(nhanvien.toString());
+//        for (AddNhanVien nhanvien : listNhanVien) {
+//            System.out.println(nhanvien.toString());
+//        }
+        for (int i = 0; i <= listNhanVien.size(); i++) {
+            System.out.println(listNhanVien.get(i).toString());
         }
     }
 }
